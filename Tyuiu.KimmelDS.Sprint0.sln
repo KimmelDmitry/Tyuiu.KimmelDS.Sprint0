@@ -3,19 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KimmelDS.Sprint0.Task3.V0.Lib", "Tyuiu.KimmelDS.Sprint0.Task3.V0.Lib\Tyuiu.KimmelDS.Sprint0.Task3.V0.Lib.csproj", "{44434E06-8199-42DD-B3DD-D2339A00FCE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.KimmelDS.Sprint0.Task3.V0.Lib", "Tyuiu.KimmelDS.Sprint0.Task3.V0.Lib\Tyuiu.KimmelDS.Sprint0.Task3.V0.Lib.csproj", "{44434E06-8199-42DD-B3DD-D2339A00FCE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KimmelDS.Sprint0.Task3.V0", "Tyuiu.KimmelDS.Sprint0.Task3.V0\Tyuiu.KimmelDS.Sprint0.Task3.V0.csproj", "{2B795A14-5E81-4651-B925-260500138963}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.KimmelDS.Sprint0.Task3.V0", "Tyuiu.KimmelDS.Sprint0.Task3.V0\Tyuiu.KimmelDS.Sprint0.Task3.V0.csproj", "{2B795A14-5E81-4651-B925-260500138963}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KimmelDS.Sprint0.Task3.V0.Test", "Tyuiu.KimmelDS.Sprint0.Task3.V0.Test\Tyuiu.KimmelDS.Sprint0.Task3.V0.Test.csproj", "{F9FF770B-DAAF-497B-9BD6-A5A2F667FC2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.KimmelDS.Sprint0.Task3.V0.Test", "Tyuiu.KimmelDS.Sprint0.Task3.V0.Test\Tyuiu.KimmelDS.Sprint0.Task3.V0.Test.csproj", "{F9FF770B-DAAF-497B-9BD6-A5A2F667FC2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.KimmelDS.Sprint0.Task4.V0.Lib", "Tyuiu.KimmelDS.Sprint0.Task4.V0.Lib\Tyuiu.KimmelDS.Sprint0.Task4.V0.Lib.csproj", "{6B6A3319-CB91-47C9-837D-8347E6854A88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.KimmelDS.Sprint0.Task4.V0", "Tyuiu.KimmelDS.Sprint0.Task4.V0\Tyuiu.KimmelDS.Sprint0.Task4.V0.csproj", "{9489AE92-DE7B-4DAF-99B7-686550CB6C6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.KimmelDS.Sprint0.Task4.V0.Test", "Tyuiu.KimmelDS.Sprint0.Task4.V0.Test\Tyuiu.KimmelDS.Sprint0.Task4.V0.Test.csproj", "{4F3534E5-E838-4AD1-92BF-8F303F59D916}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task4", "Task4", "{4E90BCE2-AC3E-4827-BA6C-70095C85B720}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{44434E06-8199-42DD-B3DD-D2339A00FCE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +35,28 @@ Global
 		{F9FF770B-DAAF-497B-9BD6-A5A2F667FC2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9FF770B-DAAF-497B-9BD6-A5A2F667FC2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9FF770B-DAAF-497B-9BD6-A5A2F667FC2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B6A3319-CB91-47C9-837D-8347E6854A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B6A3319-CB91-47C9-837D-8347E6854A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B6A3319-CB91-47C9-837D-8347E6854A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B6A3319-CB91-47C9-837D-8347E6854A88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9489AE92-DE7B-4DAF-99B7-686550CB6C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9489AE92-DE7B-4DAF-99B7-686550CB6C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9489AE92-DE7B-4DAF-99B7-686550CB6C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9489AE92-DE7B-4DAF-99B7-686550CB6C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F3534E5-E838-4AD1-92BF-8F303F59D916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F3534E5-E838-4AD1-92BF-8F303F59D916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F3534E5-E838-4AD1-92BF-8F303F59D916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F3534E5-E838-4AD1-92BF-8F303F59D916}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B6A3319-CB91-47C9-837D-8347E6854A88} = {4E90BCE2-AC3E-4827-BA6C-70095C85B720}
+		{9489AE92-DE7B-4DAF-99B7-686550CB6C6F} = {4E90BCE2-AC3E-4827-BA6C-70095C85B720}
+		{4F3534E5-E838-4AD1-92BF-8F303F59D916} = {4E90BCE2-AC3E-4827-BA6C-70095C85B720}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8EEFBDE-2F70-4236-A319-9414A1D415C5}
 	EndGlobalSection
 EndGlobal
